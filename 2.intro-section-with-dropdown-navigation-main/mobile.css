@@ -1,0 +1,97 @@
+
+
+header {   
+    background-color: aqua;
+}
+
+#logo {
+    display: block;
+}
+
+.container {
+    position: relative;
+}
+
+header > button, .menu {
+    height: 100%;
+    width: 50% !important;
+    float: right;
+    text-align: right;
+}
+
+header > button > img {
+    display: block;
+    float: right;
+}
+
+.menu {
+    display: none;
+    background-color: beige;
+    height: 100%;
+}
+
+header > button:hover + .menu {
+    display: block;
+    position: absolute;
+    right: 0;
+    z-index: 2;
+}
+
+.header > button > nav {
+    display: none;
+}
+
+.header > button > nav {
+    display: block;
+}
+
+.menu, .enter{
+    float: right;
+    text-align: right;
+}
+.menu > ul > li, .enter > a {
+    float: none;
+    display: block;
+}
+
+.menu, .enter, .header, 
+header, article, 
+.contents, .content, .container,
+.sponsors {
+    margin: auto;
+    padding: 0;
+    border: 0;
+    width: 375px;
+    font-size: 18px;
+}
+
+article > picture > #firstimg {
+    height: 270px;
+    width: 375px;
+    transform: scale(1);
+}
+
+.content {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.content > h1 {
+    font-size: 38px;
+    width: 375px;
+}
+
+.content > p {
+    font-size: 15px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.sponsors > img {
+    margin-top: 50px;
+    padding-right: 0;
+    float: left;
+    transform: scale(0.7);
+}
+

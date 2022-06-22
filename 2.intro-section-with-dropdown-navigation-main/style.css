@@ -1,0 +1,115 @@
+.container {
+    background-color: indigo;
+}
+
+header {
+    padding: 30px 40px;
+    font-size: 12px;
+    font-size: 12px;
+}
+
+.header > button > img {
+    display: none;
+}
+
+.header > button {
+    background-color: white;
+    background-color: #fafafa;
+    width: 80%;
+}
+
+.menu > ul > li, .enter > a{
+    display: inline;
+    padding: 10px;
+    float: left;
+}
+
+.menu, header img, .content {
+    float: left;
+}
+
+#feature {
+    text-align: right;
+}
+
+.menu > ul > li > ul{
+    display: none;
+}
+
+.menu > ul > li:hover > ul {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 2px rgba(62, 62, 62, 0.099);
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 5px;
+    text-align: left;
+    display: block;
+}
+
+.menu {
+    margin-left: 50px;
+    width: 400px;
+}
+
+.enter {
+    text-align: right;
+    float: right;
+}
+
+.enter > a:hover {
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+article {
+    width: 1000px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+article > picture > #firstimg {
+    height: 600px;
+    float: right;
+    transform: scale(1);
+}
+
+.contents {
+    width: 480px;
+    padding-left: 20px;
+}
+
+.content > h1 {
+    font-size: 80px;
+}
+
+.content > p {
+    width: 390px;
+    text-align: justify;
+    font-size: 18px;
+    margin-top: 50px;
+    color:  #696969;
+}
+
+.content > #learnmore {
+    border: 1.5px solid black;
+    border-radius: 12px;
+    padding: 10px;
+    width: 100px;
+    font-weight: bolder;
+    color: black;
+}
+
+#learnmore:hover {
+    color: white;
+    background-color: black;
+}
+
+
+.sponsors {
+    margin-top: 70px;
+    float: left;
+}
+
+.sponsors > img {
+    padding: 0 25px 0 0;
+}

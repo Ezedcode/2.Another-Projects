@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="desktop.css" media="(max-width: 1022px)">
+    <link rel="stylesheet" href="mobile.css" media="(max-width: 869px)">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header> 
+            <img src="images/logo.svg" alt="logo">
+            <div class="header">
+                <button>
+                    <img src="images/icon-menu.svg" alt="menu bottom">
+                </button>
+                <nav class="menu">
+                    <ul>
+                        <li id="feature">Features
+                            <ul>
+                                <li>All list</li>
+                                <li>Calendar</li>
+                                <li>Reminders</li>
+                                <li>Planning</li>
+                            </ul>
+                        </li>
+                        <li id="company">Company
+                            <ul>
+                                <li>History</li>
+                                <li>Our Team</li>
+                                <li>Blog</li>
+                            </ul>
+                        </li>
+                        <li>Careers</li>
+                        <li>About</li>
+                    </ul>
+                </nav>
+                <nav class="enter">
+                    <a>Login</a>
+                    <a>Register</a>
+                </nav>
+            </div>
+        </header>
+        <article>
+            <picture>
+                <source media="(max-width: 869px)" srcset="images/image-hero-mobile.png" >
+                <img id="firstimg" src="images/image-hero-desktop.png" alt="hero desktop">
+            </picture>
+            <div class="contents">
+                <div class="content">
+                    <h1>Make remote work</h1>
+                    <p>Get your team in sync, no matter your location. Streamline process, creat team rituals, and watch productivity soar.</p>
+                    <p id="learnmore">Learn more</p>
+                </div>
+                <div class="sponsors">
+                    <img src="images/client-databiz.svg" alt="Databiz">
+                    <img src="images/client-audiophile.svg" alt="Audiophile">
+                    <img src="images/client-meet.svg" alt="Meet">
+                    <img src="images/client-maker.svg" alt="Marker">
+                </div>
+            </div>
+        </article>
+    </div>
+</body>
+</html>

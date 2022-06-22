@@ -1,0 +1,32 @@
+article {
+    width: 700px;
+}
+
+article > picture > #firstimg {
+    height: 400px;
+}
+
+.contents {
+    width: 320px;
+}
+
+.content > h1 {
+    font-size: 50px;
+}
+
+.content > p {
+    width: 320px;
+    font-size: 16px;
+}
+
+.sponsors {
+    padding: 0;
+    border: 0;
+    width: 400px;
+}
+
+.sponsors > img {
+    padding: 0;
+    float: left;
+    transform: scale(0.6);
+}
